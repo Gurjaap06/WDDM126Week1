@@ -6,21 +6,24 @@ body {
 .navigation {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px 20px;
     background-color: #333;
   }
 
 li {
   display: inline;
-  margin: 50px;
+  margin: 0px;
   padding: 0px;
 }
 
 a {
   color: white;
   text-decoration: none;
+  padding: 20px 40px;
+  border-right: 1px solid white;
 }
 
 a:hover {
   background-color: #111;
 }
+
